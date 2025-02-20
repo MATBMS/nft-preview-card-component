@@ -14,18 +14,55 @@ main {
 .date,
 .creator {
   display: flex;
+  align-items: center;
+}
+
+.creator {
+  gap: 16px;
 }
 
 .stats {
   justify-content: space-between;
 }
 
-
 /* == TYPOGRAPHY == */
 
 @font-face {
   font-family: 'Outfit';
   src: url('./fonts/Outfit.ttf') format('truetype');
+}
+
+.heading {
+  font-family: 'Outfit';
+  font-size: 22px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.body {
+  font-family: 'Outfit';
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: light;
+  color: #8BACD9;
+}
+
+.caption {
+  font-family: 'Outfit';
+  font-size: 16px;
+  font-weight: 400;
+  color: #8BACD9;
+}
+
+.caption-bold {
+  font-family: 'Outfit';
+  font-size: 16px;
+  font-weight: bold;
+  color: #00FFF8;
+}
+
+.caption span {
+  color: #FFF;
 }
 
 /* == CARD == */
