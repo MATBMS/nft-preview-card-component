@@ -1,0 +1,54 @@
+/* == LAYOUT == */
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0D192C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats,
+.price,
+.date,
+.creator {
+  display: flex;
+}
+
+.stats {
+  justify-content: space-between;
+}
+
+
+/* == TYPOGRAPHY == */
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./fonts/Outfit.ttf') format('truetype');
+}
+
+/* == CARD == */
+
+.card {
+  background-color: #15263F;
+  padding: 24px;
+}
+
+.product-img {
+  width: 302px;
+  height: 302px;
+}
+
+.product-desc {
+  width: 302px;
+}
+
+/* == CREATOR == */
+
+.creator-avatar {
+  width: 32px;
+  height: 32px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
