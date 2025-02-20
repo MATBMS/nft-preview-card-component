@@ -86,11 +86,13 @@ main {
 .card {
   background-color: #15263F;
   padding: 24px;
+  border-radius: 16px;
 }
 
 .product-img {
   width: 302px;
   height: 302px;
+  border-radius: 8px;
 }
 
 .product-desc {
