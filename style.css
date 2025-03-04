@@ -53,6 +53,11 @@ main {
   font-size: 22px;
   font-weight: 600;
   color: #FFF;
+  cursor: pointer;
+}
+
+.heading:hover {
+  color: #00FFF8;
 }
 
 .body {
@@ -79,6 +84,11 @@ main {
 
 .caption span {
   color: #FFF;
+  cursor: pointer;
+}
+
+.caption span:hover {
+  color: #00FFF8;
 }
 
 /* == CARD == */
@@ -93,6 +103,22 @@ main {
   width: 302px;
   height: 302px;
   border-radius: 8px;
+  background-image: url('./images/image-equilibrium.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.product-img:hover {
+  background-image:
+    url('./images/image-equilibrium.jpg'),
+    linear-gradient(rgba(0, 255, 248, 0.5), rgba(0, 255, 248, 0.5)),
+    url('./images/icon-view.svg');
+  background-size: cover, cover, 48px;
+  background-position: center, center, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-blend-mode: overlay, overlay, normal;
 }
 
 .product-desc {
