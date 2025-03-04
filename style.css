@@ -25,6 +25,16 @@ main {
   /* Center items vertically */
 }
 
+.price {
+  gap: 6.48px;
+  /* Space between items */
+}
+
+.date {
+  gap: 7.7px;
+  /* Space between items */
+}
+
 .creator {
   gap: 16px;
   /* Space between items */
